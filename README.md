@@ -1,4 +1,4 @@
-# jswords
+# javascriptwords
 
 This script is for creating wordlist from javascript files.The script takes a file having js urls as input.
 Java script is beautified using jsbeautifier.The script fetches all the words having length greater than 2.It also ignores all the words which
