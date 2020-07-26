@@ -19,7 +19,7 @@ def fetchWords(jsdata):
     for string in remove_ignored_words:
         if string.isnumeric():
             continue
-        if string != "" and len(string) >= 2 and string.isalnum() and string.isascii():
+        elif string != "" and len(string) >= 2 and string.isalnum() and string.isascii():
             verified_list.append(string)
 
     unique_words = list(dict.fromkeys(verified_list))
